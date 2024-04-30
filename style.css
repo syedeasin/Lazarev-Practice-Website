@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    color: #fff;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*=============================================
+=            Navigation Section            =
+=============================================*/
+nav {
+    position: fixed;
+    background-color: red;
+    display: flex;
+    width: 100%;
+    padding: 2vw 10.4vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-part2{
+    display: flex;
+    gap: 2vw;
+}
+.nav-part2 h4 {
+    font-size: 0.76vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#nav-bottom {
+    background-color: #4CA44E;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    bottom: -100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* nav:hover #nav-bottom {
+    height: 100%;
+    bottom: 100%;
+    background-color: green;
+} */
+
+/*=====  End of Navigation Section comment block  ======*/
+
+
+/*=============================================
+=            Hero Section comment block            =
+=============================================*/
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#page1 h1 {
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 8.5vw;
+}
+#page1 h1 span svg {
+    height: 6vw;
+    width: 6vw;
+    background-color: #4CA44E;
+    border-radius: 100%;
+}
+#page1 p {
+    text-align: center;
+    font-weight: 400;
+    margin: 3vh;
+}
+#page1-something {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -22px;
+}
+#page1-something h4 {
+    font-weight: 400;
+    font-size: 1vw;
+    text-transform: lowercase;
+    padding: 5px 10px;
+    margin: 1px;
+    border: 1px solid #7e7e7ee1;
+    border-radius: 50px;
+}
+#page1-something h4:nth-child(3) {
+    border: none;
+    padding: 3px;
+}
+
+/*=====  End of Hero Section comment block  ======*/
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
